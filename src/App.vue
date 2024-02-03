@@ -53,7 +53,7 @@ const store = mainStore();
 const getWidth = () => {
   store.setInnerWidth(window.innerWidth);
 };
-
+//激活工作流（无意义）
 // 加载完成事件
 const loadComplete = () => {
   nextTick(() => {
